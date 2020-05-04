@@ -30,3 +30,9 @@ function currentLine(deliLine){
     return string
   }
 }
+function ticketNumber(){
+  var number=0
+  number+=1
+  var position=number+1
+  var string=`You a ticket number ${number}`
+}
